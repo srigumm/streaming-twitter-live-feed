@@ -1,7 +1,5 @@
 const client = require("./twitterClient");
 
-
-
 const getTweetsHandler =  (req, res)=>{
 
     //Retrieve user key to search tweets
