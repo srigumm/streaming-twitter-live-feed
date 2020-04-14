@@ -14,12 +14,19 @@ export const GetTweetsAction=(name)=>{
     };
 };
 
-export const MergeTweetsAction=(tweet)=>{
-    console.log(tweet)
+export const MergeTweetAction=(tweet)=>{
+    //console.log(tweet)
      return {
-         type: 'MERGE_TWEETS',
+         type: 'MERGE_TWEET',
          payload:tweet
      }
+}
+
+export const MergeNewTweetsAction = (tweets) =>{
+    return {
+        type: 'MERGE_TWEETS',
+        payload: tweets
+    }
 }
       
 

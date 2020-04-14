@@ -1,0 +1,15 @@
+.pageContainer{
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-gap:20px;
+    width: 100%;
+    height:100%;
+}
+.title{
+    color:blue;
+    font-family:'Roboto';
+    font-weight:500;
+}
+.results{
+    font-family:'Roboto Light';
+}

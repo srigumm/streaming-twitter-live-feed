@@ -8,6 +8,7 @@ app.use(bodyparser.urlencoded({ extended: false }));
 app.use(cors());
 
 var twitterRoutes = require('./routes/twitterRoutes');
+
 app.use('/tweets', twitterRoutes);
  
 module.exports = app;

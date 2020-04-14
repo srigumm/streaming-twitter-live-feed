@@ -6,7 +6,6 @@ function App() {
   return (
     <div>
       <BrowserRouter>
-       <Link to="/" >Search Tweets</Link>
         <Switch>
           <Route path="/" component={TweetsSearch} exact={true}/>
           {/* <Route path="/:name" component ={Tweets}/> */}
